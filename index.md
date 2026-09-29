@@ -4,12 +4,21 @@ title: Home
 ---
 
 <section class="intro" aria-labelledby="intro-heading">
-  <img class="profile-photo" src="{{ site.profile_image | relative_url }}" alt="{{ site.author | escape }}" width="235" height="235">
+  <img class="profile-photo" src="{{ site.profile_image | relative_url }}" alt="{{ site.author | escape }}" width="250" height="250">
   <div>
     <h1 id="intro-heading" class="about-heading">About Me</h1>
     <p>I'm a master's student in Computer Science at Duke, and I'm particularly interested in computer systems, natural language processing, and reinforcement learning.</p>
-    <p>In addition, I am researching the society-centered impacts of AI.</p>
     <p>I am seeking PhD positions starting <b>fall 2027.</b></p>
+    <div class="contact-buttons" aria-label="Contact and projects">
+      <a class="contact-button" href="https://github.com/SupremeSingh">
+        <svg class="contact-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><use href="{{ '/assets/minima-social-icons.svg' | relative_url }}#github"></use></svg>
+        <span>GitHub</span>
+      </a>
+      <a class="contact-button" href="mailto:manmit.singh@duke.edu">
+        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg>
+        <span>Email</span>
+      </a>
+    </div>
   </div>
 </section>
 

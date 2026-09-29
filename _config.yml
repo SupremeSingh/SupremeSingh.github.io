@@ -15,7 +15,6 @@ profile_image: /assets/images/profile.png
 header_pages:
   - posts.md
   - projects.md
-  - contact.md
 
 markdown: kramdown
 highlighter: rouge
