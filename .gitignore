@@ -1,0 +1,22 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Jekyll generated output and caches
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+/.sass-cache/
+
+# Local Ruby dependencies and Bundler configuration
+/.bundle/
+/vendor/bundle/
+
+# Local logs, environment settings, and editor temporary files
+*.log
+.env
+.env.*
+!.env.example
+*.swp
+*.swo
+*~
