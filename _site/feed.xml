@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-09-29T15:42:52-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Manmit Singh’s Website</title><subtitle>Computer Science graduate student at Duke University</subtitle><author><name>Manmit Singh</name></author><entry><title type="html">Sample placeholder for article with math and code</title><link href="http://localhost:4000/blog/2026/09/29/writing-math-and-code/" rel="alternate" type="text/html" title="Sample placeholder for article with math and code" /><published>2026-09-29T00:00:00-04:00</published><updated>2026-09-29T00:00:00-04:00</updated><id>http://localhost:4000/blog/2026/09/29/writing-math-and-code</id><content type="html" xml:base="http://localhost:4000/blog/2026/09/29/writing-math-and-code/"><![CDATA[<p>This sample post demonstrates mathematical notation and code formatting.</p>
+
+<h2 id="inline-math">Inline math</h2>
+
+<p>A value estimate is written as \(V(s)\) in a sentence.</p>
+
+<h2 id="display-math">Display math</h2>
+
+<p>Put double dollar signs on their own lines, with blank lines around the block:</p>
+
+\[V(s) \leftarrow V(s) + \alpha\left[r + \gamma V(s') - V(s)\right].\]
+
+<h2 id="python-code">Python code</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">td_update</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">reward</span><span class="p">,</span> <span class="n">next_value</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span> <span class="n">gamma</span><span class="o">=</span><span class="mf">0.99</span><span class="p">):</span>
+    <span class="n">target</span> <span class="o">=</span> <span class="n">reward</span> <span class="o">+</span> <span class="n">gamma</span> <span class="o">*</span> <span class="n">next_value</span>
+    <span class="k">return</span> <span class="n">value</span> <span class="o">+</span> <span class="n">alpha</span> <span class="o">*</span> <span class="p">(</span><span class="n">target</span> <span class="o">-</span> <span class="n">value</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="a-link">A link</h2>
+
+<p><a href="https://github.com/SupremeSingh">GitHub</a></p>]]></content><author><name>Manmit Singh</name></author><summary type="html"><![CDATA[This sample post demonstrates mathematical notation and code formatting.]]></summary></entry></feed>

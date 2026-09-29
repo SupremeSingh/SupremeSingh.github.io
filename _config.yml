@@ -1,0 +1,50 @@
+title: "Manmit Singh's Website"
+browser_title: "Manmit's Website"
+author: Manmit Singh
+email: manmit.singh@duke.edu
+description: Computer Science graduate student at Duke University
+url: "https://SupremeSingh.github.io"
+baseurl: ""
+theme: minima
+timezone: America/New_York
+permalink: /blog/:year/:month/:day/:title/
+
+# Set this to /assets/images/profile.jpg after adding your photo.
+profile_image: /assets/images/profile.png
+
+header_pages:
+  - posts.md
+  - projects.md
+  - contact.md
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      math: true
+  - scope:
+      path: ""
+      type: drafts
+    values:
+      layout: post
+      math: true
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

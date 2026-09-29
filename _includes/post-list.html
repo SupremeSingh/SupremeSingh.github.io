@@ -1,0 +1,17 @@
+{% if site.posts.size > 0 %}
+<ul class="post-list{% if include.variant == 'archive' %} post-list-archive{% endif %}">
+  {% for post in site.posts %}
+  <li>
+    {% if include.variant == 'archive' %}
+    <time class="post-list-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B %-d, %Y' }}</time>
+    <h2 class="post-list-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+    {% else %}
+    <a href="{{ post.url | relative_url }}"><strong>{{ post.title | escape }}</strong></a>
+    <span class="muted">— <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B %-d, %Y' }}</time></span>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="muted">Posts coming soon.</p>
+{% endif %}
