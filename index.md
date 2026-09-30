@@ -22,6 +22,10 @@ title: Home
   </div>
 </section>
 
+<aside class="research-announcement" aria-label="Research recognition">
+  <p>I'm glad to announce I received <strong>2nd place</strong> at the <a href="https://gradschool.duke.edu/event/100-years-innovation-duke-graduate-research-fair-09-17-2026/">Duke Graduate Research Fair</a> for my research on the impacts of generative AI in computer science education.</p>
+</aside>
+
 ## Education
 
 <div class="education-entry">

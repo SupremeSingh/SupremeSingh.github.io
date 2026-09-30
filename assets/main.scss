@@ -137,6 +137,29 @@ h2 {
 .muted {
   color: #666;
 }
+.research-announcement {
+  margin: 0 0 32px;
+  padding: 16px 20px;
+  border-left: 3px solid #2463b3;
+  border-radius: 0 6px 6px 0;
+  background: #f0f5fb;
+  color: #222;
+  font-size: 17px;
+  line-height: 1.55;
+}
+.research-announcement p {
+  margin: 0;
+}
+.research-announcement .announcement-label {
+  margin-bottom: 6px;
+  color: #465b75;
+  font-size: 14px;
+  font-weight: 600;
+}
+.research-announcement a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .post-list {
   list-style: none;
   margin-left: 0;
