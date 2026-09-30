@@ -30,12 +30,11 @@ title: Home
     <span class="education-date">May 2027</span>
   </div>
   <div class="education-row">
-    <p><strong class="education-degree">M.S. Computer Science</strong></p>
+    <p><strong class="education-degree">M.S. Computer Science</strong>, AI/ML Concentration</p>
     <span class="education-gpa">3.8 GPA</span>
   </div>
-  <p class="education-details"><strong>Coursework:</strong> Reinforcement Learning (CS 590), Natural Language Processing (CS 572) Operating Systems (CS 510), Distributed Systems (CS 512), Systems for Machine Learning (CS 590) </p>
-  <p class="education-details">
-  <strong>Research/Projects:</strong> Computing Education Research <a href="https://nlplab.cs.duke.edu/">(DukeNLP Lab)</a>, Reinforcement Learning Research</p> 
+  <p class="education-details">Computing Education Research <a href="https://nlplab.cs.duke.edu/">(DukeNLP Lab)</a> · Reinforcement Learning Research</p>
+  <p class="education-details"></p> 
 </div>
 
 <div class="education-entry">
