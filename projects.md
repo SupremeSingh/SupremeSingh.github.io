@@ -9,7 +9,7 @@ permalink: /projects/
   <ul class="post-list post-list-archive project-list">
     <li>
       <h2 class="post-list-title"><a href="https://github.com/SupremeSingh/SLICE">SLICE: Sparse Latent Inference for Correctness Estimation</a></h2>
-      <p>A research toolkit for predicting whether a language model’s unfinished answer will be correct. It combines hidden states from multiple layers of a frozen model, compresses them into learned features, and fits a linear Ridge readout to estimate final-answer correctness from a question or partial answer. The toolkit includes workflows for collecting answers, extracting features, training probes, and evaluating predictions.</p>
+      <p>A research toolkit for predicting whether a language model’s unfinished answer will be correct. It combines hidden states from multiple layers of a frozen model, compresses them into learned features, and fits a linear Ridge readout to estimate final-answer correctness from a question or partial answer.</p>
     </li>
     <li>
       <h2 class="post-list-title"><a href="https://github.com/SupremeSingh/rl_ms_project">Math RL: Can PPO Use a Cheaper Critic?</a></h2>
