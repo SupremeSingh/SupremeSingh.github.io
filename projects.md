@@ -7,13 +7,13 @@ permalink: /projects/
 <section class="projects-page" aria-labelledby="projects-heading">
   <h1 id="projects-heading" class="section-heading">Projects</h1>
   <ul class="post-list post-list-archive project-list">
+      <li>
+      <h2 class="post-list-title"><a href="https://github.com/SupremeSingh/rl_ms_project">SCALE: Sparse Cumulative Architecture for Linear Evaluation</a></h2>
+      <p>A RL pipeline that combines SLICE’s frozen, compressed language-model representations with a small linear critic to train math-solving models using PPO. On NuminaMath-1.5, it improves the base model better than PPO or GRPO, with 17% less GPU training time than PPO and 10% less than GRPO.</p>
+    </li>
     <li>
       <h2 class="post-list-title"><a href="https://github.com/SupremeSingh/SLICE">SLICE: Sparse Latent Inference for Correctness Estimation</a></h2>
       <p>A research toolkit for predicting whether a language model’s unfinished answer will be correct. It combines hidden states from multiple layers of a frozen model, compresses them into learned features, and fits a linear Ridge readout to estimate final-answer correctness from a question or partial answer.</p>
-    </li>
-    <li>
-      <h2 class="post-list-title"><a href="https://github.com/SupremeSingh/rl_ms_project">Math RL: Can PPO Use a Cheaper Critic?</a></h2>
-      <p>A reinforcement learning research project exploring lightweight linear critics for training math-solving language models. It reuses the model’s hidden representations to compare ridge regression and least-squares temporal-difference critics against conventional PPO and GRPO, evaluating both accuracy and training compute.</p>
     </li>
     <li>
       <h2 class="post-list-title"><a href="https://github.com/SupremeSingh/Awesome-ZK">Awesome-ZK: Zero Knowledge On-Ramp</a></h2>
