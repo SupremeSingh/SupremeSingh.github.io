@@ -9,7 +9,7 @@ permalink: /projects/
   <ul class="post-list post-list-archive project-list">
       <li>
       <h2 class="post-list-title"><a href="https://github.com/SupremeSingh/rl_ms_project">SCALE: Sparse Cumulative Architecture for Linear Evaluation</a></h2>
-      <p>A RL pipeline that combines SLICE’s frozen, compressed language-model representations with a small linear critic to train math-solving models using PPO. On NuminaMath-1.5, it improves the base model better than PPO or GRPO, with 17% less GPU training time than PPO and 10% less than GRPO.</p>
+      <p>A RL pipeline that combines SLICE’s frozen, compressed language-model representations with a small linear critic to train math-solving models using PPO. On NuminaMath-1.5, it improves the base model better than PPO or GRPO, with 17% less GPU training time than PPO and only 10% more than GRPO.</p>
     </li>
     <li>
       <h2 class="post-list-title"><a href="https://github.com/SupremeSingh/SLICE">SLICE: Sparse Latent Inference for Correctness Estimation</a></h2>
