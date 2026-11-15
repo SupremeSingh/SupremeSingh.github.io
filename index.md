@@ -37,7 +37,7 @@ title: Home
     <p><strong class="education-degree">M.S. Computer Science</strong>, AI/ML Concentration</p>
     <span class="education-gpa">3.8 GPA</span>
   </div>
-  <p class="education-details">Computing Education Research <a href="https://nlplab.cs.duke.edu/">(DukeNLP Lab)</a> · Reinforcement Learning Research</p>
+  <p class="education-details">Reinforcement Learning Research · Computing Education Research</p>
   <p class="education-details"></p> 
 </div>
 
