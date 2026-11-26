@@ -7,7 +7,7 @@ title: Home
   <img class="profile-photo" src="{{ site.profile_image | relative_url }}" alt="{{ site.author | escape }}" width="250" height="250">
   <div>
     <h1 id="intro-heading" class="about-heading">About Me</h1>
-    <p>I'm a master's student in Computer Science at Duke, and I'm particularly interested in computer systems, natural language processing, and reinforcement learning.</p>
+    <p>I'm a master's student in Computer Science at Duke, and I study how to make reinforcement learning for language models more compute-efficient, with a focus on training LLMs to reason.</p>
     <p>I am seeking PhD positions starting <b>fall 2027.</b></p>
     <div class="contact-buttons" aria-label="Contact and projects">
       <a class="contact-button" href="https://github.com/SupremeSingh">
